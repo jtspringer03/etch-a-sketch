@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.flex-grid {
+  border-style: solid;
+  height: 320px;
+  width: 415px;
+}
+
+.div-pads {
+  border-style: solid;
+  width: 20px;
+  height: 20px;
+  border-style: dotted;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
