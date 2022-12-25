@@ -1,26 +1,22 @@
 body {
   display: flex;
-  justify-content: center;
-}
-.flex-grid {
-  border-style: solid;
-  height: 320px;
-  width: 415px;
-}
-
-.div-pads {
-  border-style: solid;
-  width: 20px;
-  height: 20px;
-  border-style: dotted;
-}
-
-.flex-grid {
-  display: flex;
-}
-
-.col {
-  display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
 }
